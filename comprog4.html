@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>CLASS SCHEDULE</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="index.html">Schedule</a>
+    </nav>
+    
+<head>
+    <title>COMP-PROG 4</title>
+    <style>
+        
+        header {
+            background-color: #0074e4;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkgrey;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 5px auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0074e4;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .course-name:hover + .course-details, .course-details:hover {
+            display: table-row;
+        }
+
+        .course-details {
+            display: none;
+            padding: 10px 0;
+        }
+        
+        tr:hover {
+            background-color: #0074e4;
+            color: #fff;
+        }
+
+        nav a {
+            color: #0074e4;
+            text-decoration: none;
+            font-size: large;
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            background-color: #f0f0f0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a:hover {
+            background-color: #0074e4;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Computer Programming 4</th>
+        </tr>
+        <tr>
+            <td>Teacher:</td>
+            <td>Sir. Benny Pio</td>
+        </tr>
+        <tr>
+            <td>Class Times:</td>
+            <td>
+                Tuesday: 4:00 PM - 6:00 PM<br>
+                Thursday: 4:00 PM - 6:00 PM
+            </td>
+        </tr>
+        <tr class="course-name">
+            <td>Course:</td>
+            <td>Computer Programming 4 (Web Design)</td>
+        </tr>
+        <tr class="course-details">
+            <td colspan="2">
+                Web Design course typically covers the principles and practical skills required to create visually appealing and functional websites. This course is important for individuals interested in web development, graphic design, or digital marketing.
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
